@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# echo what dir we are in
+echo $PWD
+
+# change the files from here on down to 0660
+find * -type f -exec chmod g=rw {} \;
+
+# change the directories from here on down to 0770
+find * -type d -exec chmod g=rwx {} \;
