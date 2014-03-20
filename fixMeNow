@@ -4,9 +4,9 @@
 echo "Adding Group read write to" $PWD
 
 {
-# change the files from here on down to 0660
-find * -type f -exec chmod g=rw {} \;
+    # change the files from here on down to 0660
+    find * -type f -exec chmod g=rw {} \;
 
-# change the directories from here on down to 0770
-find * -type d -exec chmod g=rwx {} \;
+    # change the directories from here on down to 0770
+    find * -type d -exec chmod g=rwx {} \;
 } 2> ~/fixMeLogFile
