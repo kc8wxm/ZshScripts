@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+# testing out script that ask for user input
+vared -c -p 'Enter e-mail address: ' address
+echo $address
