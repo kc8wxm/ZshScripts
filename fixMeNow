@@ -11,5 +11,6 @@
 
         # change the directories from here on down to 0770
         find * -type d -exec chmod g=rwx {} \;
-    } 2> ~/fixMeLogFile
+    } 2> ~/fixMeLogFile &!
 )
+exit 1
