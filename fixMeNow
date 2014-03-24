@@ -1,5 +1,5 @@
 #!/bin/zsh
-#
+
 (
     cd $HOME/www
     # echo what dir we are in
