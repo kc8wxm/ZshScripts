@@ -1,8 +1,0 @@
-#!/bin/zsh
-
-# testing out script that ask for user input
-# vared -c -p 'Enter e-mail address: ' address
-# echo $address
-printf '%s\t%s\t%s\n' 'item' 'new' 'your'
-printf '%.2f\t%.2f\t%.2f\n' 291.00 321.13 431.95
-exit 1
