@@ -1,9 +1,8 @@
-ZshScripts
-==========
+#ZshScripts
 
-Zsh Scripts
+##Zsh Scripts
 
-Creating scripts in Zsh.
+###Creating scripts in Zsh.
 
 First one is a simple one that will update the groups permissions for files 
 and directories.  Hopefully this helps with some Mac users out there that are 
